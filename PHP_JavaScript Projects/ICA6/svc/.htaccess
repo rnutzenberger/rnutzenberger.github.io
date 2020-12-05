@@ -1,0 +1,5 @@
+# Access the mod_rewrite.c module of Apache Web Server 
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ api.php?request=$1 [QSA,NC,L]

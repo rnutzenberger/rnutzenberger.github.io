@@ -1,0 +1,44 @@
+
+body{
+    background-color: cadetblue;
+    font-family: 'Raleway',serif;
+}
+
+
+a{
+    color: black;
+    font-size: 1.9em;
+    font-family: 'Raleway',serif;
+
+}
+a:link{
+    color: black;
+}
+a:visited{
+    color: black;
+}
+a:hover{
+    color: dimgray;
+}
+
+
+
+h1,h5{
+    color: white;
+    font-family: 'Hepta Slab',serif;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.Centered{
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+
+
+
+
+
+
